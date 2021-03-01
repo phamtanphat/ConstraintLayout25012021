@@ -8,6 +8,8 @@
     tools:context=".MainActivity">
 
     <TextView
+        app:layout_constraintVertical_bias="0.1"
+        app:layout_constraintHorizontal_bias="0.4"
         android:id="@+id/textView1"
         android:textSize="20sp"
         app:layout_constraintRight_toRightOf="parent"
@@ -15,34 +17,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         android:text="View 1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <TextView
-        app:layout_constraintRight_toLeftOf="@id/textView1"
-        app:layout_constraintBottom_toTopOf="@id/textView1"
-        android:textSize="20sp"
-        android:text="View 2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <TextView
-        app:layout_constraintLeft_toRightOf="@id/textView1"
-        app:layout_constraintBottom_toTopOf="@id/textView1"
-        android:textSize="20sp"
-        android:text="View 3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <TextView
-        app:layout_constraintRight_toLeftOf="@id/textView1"
-        app:layout_constraintTop_toBottomOf="@id/textView1"
-        android:textSize="20sp"
-        android:text="View 4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <TextView
-        app:layout_constraintLeft_toRightOf="@id/textView1"
-        app:layout_constraintTop_toBottomOf="@id/textView1"
-        android:textSize="20sp"
-        android:text="View 5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
